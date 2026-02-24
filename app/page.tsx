@@ -1,3 +1,13 @@
-export default function Home(){
-  return <h1>This is first Next program to show the text on the screen</h1>
+import HomePage from "./(user)/home/page";
+import Navigation from "./components/Navigation";
+import "./globals.css";
+
+
+export default function Home() {
+  return (
+    <div>
+      <Navigation />
+      <HomePage />
+    </div>
+  );
 }

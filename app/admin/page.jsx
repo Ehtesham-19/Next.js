@@ -1,8 +1,12 @@
 import React from 'react'
+import Navigation from '../components/Navigation'
 
 function Admin() {
   return (
-    <div>Admin DashBoard</div>
+    <div>
+      <Navigation/>
+      <h1>Admin Dashboard</h1>
+    </div>
   )
 }
 

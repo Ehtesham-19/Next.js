@@ -1,8 +1,7 @@
-export default function RootLayout({ children }) {
+export default function AboutLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html>
-      
-      <body>{children}</body>
-    </html>
+    <section className="about-wrapper">
+      {children}
+    </section>
   );
 }

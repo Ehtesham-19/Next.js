@@ -1,17 +1,18 @@
-import { Geist } from 'next/font/google'
- 
+import { Geist } from "next/font/google";
+import "./globals.css";
+
 const geist = Geist({
-  subsets: ['latin'],
-})
- 
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={geist.className}>
+    <html>
       <body>{children}</body>
     </html>
-  )
+  );
 }
