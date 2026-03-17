@@ -1,6 +1,9 @@
 import HomePage from "./(user)/home/page";
 import Navigation from "./components/Navigation";
 import "./globals.css";
+const metadata={
+  title:"Full Stack"
+}
 
 
 export default function Home() {

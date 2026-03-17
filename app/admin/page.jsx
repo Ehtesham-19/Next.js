@@ -1,5 +1,8 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+const metadata={
+  title:"Admin Dashboard"
+}
 
 function Admin() {
   return (

@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+const metadata={
+  title:"Home"
+}
 
 function HomePage() {
   return (

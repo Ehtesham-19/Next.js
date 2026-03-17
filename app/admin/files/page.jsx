@@ -1,4 +1,7 @@
 import React from 'react'
+const metadata={
+  title:"Admin Files"
+}
 
 
 function Files() {
